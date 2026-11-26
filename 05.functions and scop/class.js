@@ -247,3 +247,135 @@
 //     console.log("Good evening !!")
 // }
 
+
+// let x = 5;
+// function outer(){
+//     let y = 10;
+//     function inner(){
+//         let z = 15;
+//         console.log(z);
+//         console.log(y);
+//         console.log(x);
+//     }
+//     inner()
+// }
+// outer();
+
+
+// let x = 5;                          //globle scope
+// function outer(){
+//     let y = 10;                     //outer functional
+//     function inner(){
+//         let z = 15;                 //inner functional
+//     console.log(z);
+//     console.log(y);
+//     console.log(x);
+//     }
+//     inner()
+// }
+// outer();
+
+
+///<<<===variable shadowing===>>>///
+
+
+//type = 1
+// let a = 100;
+// function test(){
+//     let a = 200;
+//     console.log(a)
+// }
+// test()
+// console.log(a)
+
+//type - 2
+// var score = 50;
+// function test(){
+//     var score = 90;
+//     console.log(score);
+// }
+// test();
+// console.log(score)
+
+
+//type = 3
+//const score = 50;
+// function test(){
+//     const score = 90;
+//     console.log(score);
+// }
+// test();
+// console.log(score)
+
+//type = 4
+//var score = 50;
+// function test(){
+//     score = 90;
+//     console.log(score);
+// }
+// test();
+// console.log(score)
+
+
+//type = 5
+//let score = 50;
+// function test(){
+//     var score = 90;
+//     console.log(score);
+// }
+// test();
+// console.log(score)
+
+
+//type = 6
+//const score = 50;
+// function test(){
+//     var score = 90;
+//     console.log(score);
+// }
+// test();
+// console.log(score)
+
+
+//<<<===Nested functions===>>>///
+
+
+// function funcA(){
+//     let p = 25;
+//     function funcB(){
+//         let q = 50;
+//     }
+//     funcB();
+// }
+// funcA();
+// console.log(p)
+// console.log(q)
+
+// for(var counter = 1;counter<=5;counter++){
+//     console.log(counter)
+// }
+// console.log(counter)
+
+// function A(){
+//     let p = 10;
+//     function B(){
+//         let q = 40;
+//     }
+//     B();
+// }
+// A();
+// console.log(q)
+// console.log(p)
+
+// function studentInfo(){
+//     let name = "Anil";
+//     let course = "Full stake";
+//     function display(){
+//         console.log(name)
+//         console.log(course)
+//     }
+//     display();
+// };
+
+// studentInfo();
+
